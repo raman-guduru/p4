@@ -1,0 +1,37 @@
+{
+  "target": "bmv2",
+  "p4info": "build/int_linear.p4.p4info.txtpb",
+  "bmv2_json": "build/int_linear.json",
+  "table_entries": [
+    {
+      "table": "MyIngress.int_source_sink",
+      "match": { "standard_metadata.ingress_port": 1 },
+      "action_name": "MyIngress.int_sink",
+      "action_params": {}
+    },
+    {
+      "table": "MyIngress.int_source_sink",
+      "match": { "standard_metadata.ingress_port": 2 },
+      "action_name": "MyIngress.int_source",
+      "action_params": {}
+    },
+    {
+      "table": "MyIngress.forward",
+      "match": { "hdr.ipv4.dstAddr": ["10.0.1.1", 32] },
+      "action_name": "MyIngress.ipv4_forward",
+      "action_params": { "dstAddr": "08:00:00:00:02:00", "port": 1 }
+    },
+    {
+      "table": "MyIngress.forward",
+      "match": { "hdr.ipv4.dstAddr": ["10.0.2.2", 32] },
+      "action_name": "MyIngress.ipv4_forward",
+      "action_params": { "dstAddr": "08:00:00:00:02:22", "port": 2 }
+    },
+    {
+      "table": "MyEgress.int_transit",
+      "match": { "standard_metadata.egress_port": 1 },
+      "action_name": "MyEgress.add_int_metadata",
+      "action_params": { "switch_id": 3 }
+    }
+  ]
+}

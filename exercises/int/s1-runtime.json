@@ -1,0 +1,47 @@
+{
+  "target": "bmv2",
+  "p4info": "build/int.p4.p4info.txtpb",
+  "bmv2_json": "build/int.json",
+  "table_entries": [
+    {
+      "table": "ingress.Int_source.tb_activate_source",
+      "match": {
+        "standard_metadata.ingress_port": 1
+      },
+      "action_name": "ingress.Int_source.activate_source",
+      "action_params": {}
+    },
+    {
+      "table": "ingress.Int_source.tb_int_source",
+      "match": {
+        "hdr.ipv4.srcAddr": ["10.0.1.1", "255.255.255.255"],
+        "hdr.ipv4.dstAddr": ["10.0.3.3", "255.255.255.255"]
+      },
+      "priority": 1,
+      "action_name": "ingress.Int_source.configure_source",
+      "action_params": {
+        "max_hop": 4,
+        "hop_metadata_len": 10,
+        "ins_cnt": 8,
+        "ins_mask": 65280
+      }
+    },
+    {
+      "table": "ingress.Forward.tb_forward",
+      "match": {
+        "hdr.ethernet.dstAddr": ["08:00:00:00:03:33", "ff:ff:ff:ff:ff:ff"]
+      },
+      "priority": 1,
+      "action_name": "ingress.Forward.send_to_port",
+      "action_params": {
+        "port": 2
+      }
+    },
+    {
+      "table": "egress.Int_transit.tb_int_transit",
+      "default_action": true,
+      "action_name": "egress.Int_transit.configure_transit",
+      "action_params": { "switch_id": 1, "l3_mtu": 1500 }
+    }
+  ]
+}

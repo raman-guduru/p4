@@ -1,0 +1,42 @@
+{
+  "target": "bmv2",
+  "p4info": "build/int.p4.p4info.txtpb",
+  "bmv2_json": "build/int.json",
+  "table_entries": [
+    {
+      "table": "ingress.Int_sink_config.tb_int_sink",
+      "match": { "standard_metadata.egress_spec": 2 },
+      "action_name": "ingress.Int_sink_config.configure_sink",
+      "action_params": { "sink_reporting_port": 3 }
+    },
+    {
+      "table": "egress.Int_sink.Int_report.tb_int_reporting",
+      "default_action": true,
+      "action_name": "egress.Int_sink.Int_report.send_report",
+      "action_params": {
+        "dp_mac": "08:00:00:00:04:00", "dp_ip": "10.0.4.1",
+        "collector_mac": "08:00:00:00:04:44", "collector_ip": "10.0.4.4",
+        "collector_port": 1234
+      }
+    },
+    {
+        "table": "ingress.Forward.tb_forward",
+        "match": { "hdr.ethernet.dstAddr": ["08:00:00:00:03:33", "ff:ff:ff:ff:ff:ff"] },
+        "priority": 1,
+        "action_name": "ingress.Forward.send_to_port",
+        "action_params": { "port": 2 }
+    },
+    {
+      "table": "egress.Int_transit.tb_int_transit",
+      "default_action": true,
+      "action_name": "egress.Int_transit.configure_transit",
+      "action_params": { "switch_id": 3, "l3_mtu": 1500 }
+    }
+  ],
+  "clone_session_entries": [
+    {
+      "clone_session_id": 1,
+      "replicas": [ { "egress_port": 3, "instance": 1 } ]
+    }
+  ]
+}

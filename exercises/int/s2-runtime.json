@@ -1,0 +1,27 @@
+{
+  "target": "bmv2",
+  "p4info": "build/int.p4.p4info.txtpb",
+  "bmv2_json": "build/int.json",
+  "table_entries": [
+    {
+      "table": "egress.Int_transit.tb_int_transit",
+      "default_action": true,
+      "action_name": "egress.Int_transit.configure_transit",
+      "action_params": {
+        "switch_id": 2,
+        "l3_mtu": 1500
+      }
+    },
+    {
+      "table": "ingress.Forward.tb_forward",
+      "match": {
+        "hdr.ethernet.dstAddr": ["08:00:00:00:03:33", "ff:ff:ff:ff:ff:ff"]
+      },
+      "priority": 1,
+      "action_name": "ingress.Forward.send_to_port",
+      "action_params": {
+        "port": 2
+      }
+    }
+  ]
+}
