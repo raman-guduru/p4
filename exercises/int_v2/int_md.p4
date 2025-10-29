@@ -69,7 +69,9 @@ control MyEgress(inout headers hdr,
             standard_metadata.egress_global_timestamp = local_metadata.perserv_meta.egress_global_timestamp;
         }
 
-        process_int_transit.apply(hdr, local_metadata, standard_metadata);
+        if (standard_metadata.instance_type != CLONE_PKT) {
+            process_int_transit.apply(hdr, local_metadata, standard_metadata);
+        }
 
         // In case of cloned packet, send telemetry report
         if (standard_metadata.instance_type == CLONE_PKT) {

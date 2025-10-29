@@ -24,7 +24,7 @@ def main():
     addr = socket.gethostbyname(sys.argv[1])
     iface = get_if()
     message = sys.argv[2]
-    num_packets = 1 # <-- How many packets to send
+    num_packets = 10 # <-- How many packets to send
     # delay_seconds = 0.0000001 # <-- Wait 100ms between packets
 
     print(f"Sending {num_packets} packets to {addr} via {iface}...")

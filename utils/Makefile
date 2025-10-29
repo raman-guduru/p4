@@ -30,6 +30,20 @@ ifdef BMV2_SWITCH_EXE
 run_args += -b $(BMV2_SWITCH_EXE)
 endif
 
+# --- Config for 'make test' ---
+# Override these in your exercise's Makefile if needed
+SENDER_SCRIPT ?= send.py
+SENDER_HOST ?= h1
+SENDER_ARGS ?= 10.0.3.3 "Hello"
+
+COLLECTOR_SCRIPT ?= report.py
+COLLECTOR_HOST ?= h3
+COLLECTOR_IFACE ?= eth0
+COLLECTOR_OUTPUT ?= ./reports/report-$(TOPO)
+COLLECTOR_PKT_COUNT ?= 10
+COLLECTOR_ARGS ?= $(COLLECTOR_IFACE) $(COLLECTOR_OUTPUT) $(COLLECTOR_PKT_COUNT)
+# ------------------------------
+
 all: run
 
 run: build
@@ -46,6 +60,18 @@ build: dirs $(compiled_json)
 dirs:
 	mkdir -p $(BUILD_DIR) $(PCAP_DIR) $(LOG_DIR)
 
+test: build
+	@echo "Starting Mininet and running test..."
+	( \
+		echo "!sleep 1s"; \
+		echo "h3 ./$(COLLECTOR_SCRIPT) $(COLLECTOR_ARGS) > ./$(COLLECTOR_HOST).log 2>&1 &"; \
+		echo "h1 ./$(SENDER_SCRIPT) $(SENDER_ARGS)"; \
+		echo "exit"; \
+	) | sudo PATH=$(PATH) ${P4_EXTRA_SUDO_OPTS} python3 $(RUN_SCRIPT) -t $(TOPO) $(run_args)
+
 clean: stop
 	rm -f *.pcap
 	rm -rf $(BUILD_DIR) $(PCAP_DIR) $(LOG_DIR)
+	# Clean up test artifacts
+
+.PHONY: all run stop build dirs clean test
