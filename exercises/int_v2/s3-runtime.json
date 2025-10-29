@@ -29,7 +29,7 @@
           "port": 3
        }
     },
-     {
+    {
       "table": "MyEgress.process_int_transit.tb_int_insert",
       "default_action": true,
       "action_name": "MyEgress.process_int_transit.init_metadata",
@@ -45,7 +45,7 @@
           "src_ip": "10.0.4.40", 
           "mon_ip": "10.0.4.4",
           "src_port": 6666,
-          "mon_port": 1234
+          "mon_port": 24576
       }
     }
   ],

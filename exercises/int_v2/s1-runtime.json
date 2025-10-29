@@ -14,7 +14,7 @@
       "match": { "hdr.ipv4.dst_addr": ["10.0.3.3", 32] },
       "action_name": "MyIngress.process_int_source.int_source",
       "action_params": {
-         "hop_metadata_len": 10,
+         "hop_metadata_len": 11,
          "remaining_hop_cnt": 8,
          "ins_mask0003": 15,
          "ins_mask0407": 15
