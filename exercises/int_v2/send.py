@@ -10,7 +10,7 @@ def get_if():
     for i in get_if_list():
         if "eth0" in i:
             iface=i
-            break;
+            break
     if not iface:
         print("Cannot find eth0 interface")
         exit(1)
@@ -24,7 +24,7 @@ def main():
     addr = socket.gethostbyname(sys.argv[1])
     iface = get_if()
     message = sys.argv[2]
-    num_packets = 100 # <-- How many packets to send
+    num_packets = 1 # <-- How many packets to send
     # delay_seconds = 0.0000001 # <-- Wait 100ms between packets
 
     print(f"Sending {num_packets} packets to {addr} via {iface}...")

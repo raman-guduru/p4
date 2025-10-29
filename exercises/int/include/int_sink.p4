@@ -31,7 +31,13 @@ control Int_sink_config(inout headers hdr, inout metadata meta, inout ingress_in
         meta.int_metadata.remove_int = 1;   // indicate that INT headers must be removed in egress
         meta.int_metadata.sink_reporting_port = (bit<16>)sink_reporting_port; 
 #ifdef BMV2
-        clone_preserving_field_list(CloneType.I2E, INT_REPORT_MIRROR_SESSION_ID, FL_INT_METADATA);
+        meta.preserved_metadata.ingress_port = standard_metadata.ingress_port;
+        meta.preserved_metadata.egress_port = standard_metadata.egress_port;
+        meta.preserved_metadata.deq_qdepth = standard_metadata.deq_qdepth;
+        meta.preserved_metadata.deq_timedelta = standard_metadata.deq_timedelta;
+        meta.preserved_metadata.ingress_global_timestamp = standard_metadata.ingress_global_timestamp;
+        meta.preserved_metadata.egress_global_timestamp = standard_metadata.egress_global_timestamp;
+        clone_preserving_field_list(CloneType.I2E, INT_REPORT_MIRROR_SESSION_ID, FL_PRESERVED_METADATA);
 #elif TOFINO
         // To use mirror
         meta.mirror_md.mirror_type = 1;
@@ -98,6 +104,7 @@ control Int_sink(inout headers hdr, inout metadata meta, in egress_intrinsic_met
         // remove int data
         hdr.int_shim.setInvalid();
         hdr.int_header.setInvalid();
+        hdr.int_data.setInvalid();
 #ifdef TOFINO
         hdr.int_data.setInvalid();
 #endif
@@ -109,6 +116,14 @@ control Int_sink(inout headers hdr, inout metadata meta, in egress_intrinsic_met
             return;
 
 #ifdef BMV2
+        if (standard_metadata.instance_type == PKT_INSTANCE_TYPE_INGRESS_CLONE) {
+            standard_metadata.ingress_port = meta.preserved_metadata.ingress_port;
+            standard_metadata.egress_port = meta.preserved_metadata.egress_port;
+            standard_metadata.deq_qdepth = meta.preserved_metadata.deq_qdepth;
+            standard_metadata.deq_timedelta = meta.preserved_metadata.deq_timedelta;
+            standard_metadata.ingress_global_timestamp = meta.preserved_metadata.ingress_global_timestamp;
+            standard_metadata.egress_global_timestamp = meta.preserved_metadata.egress_global_timestamp;
+        }
         if (standard_metadata.instance_type == PKT_INSTANCE_TYPE_NORMAL && meta.int_metadata.remove_int == 1) {
             // remove INT headers from a frame
             remove_sink_header();

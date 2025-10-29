@@ -30,6 +30,7 @@
 #define PKT_INSTANCE_TYPE_RESUBMIT 6
 
 const int FL_INT_METADATA = 1;
+const int FL_PRESERVED_METADATA = 2;
 
 header ethernet_t {
     bit<48> dstAddr;
@@ -208,10 +209,26 @@ struct layer34_metadata_t {
     bit<6>  dscp;
 }
 
+struct preserving_metadata_t {
+    @field_list(FL_PRESERVED_METADATA)
+    bit<9> ingress_port;
+    @field_list(FL_PRESERVED_METADATA)
+    bit<9> egress_port;
+    @field_list(FL_PRESERVED_METADATA)
+    bit<32> deq_timedelta;
+    @field_list(FL_PRESERVED_METADATA)
+    bit<19> deq_qdepth;
+    @field_list(FL_PRESERVED_METADATA)
+    bit<48> ingress_global_timestamp;
+    @field_list(FL_PRESERVED_METADATA)
+    bit<48> egress_global_timestamp;
+}
+
 struct metadata {
     int_metadata_t       int_metadata;
     intl4_shim_t         int_shim;
     layer34_metadata_t   layer34_metadata;
+    preserving_metadata_t preserved_metadata;
 #ifdef TOFINO
     bit<16>              int_len_bytes;
     mirror_h             mirror_md;
