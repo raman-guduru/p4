@@ -10,5 +10,5 @@ Captured INT report, sequence 7, 2 hops
 Captured INT report, sequence 8, 2 hops
 Captured INT report, sequence 9, 2 hops
 
-Sniffing complete. Saving 10 reports to ./reports/report-topology.json...
+Sniffing complete. Saving 10 reports to ../reports/report-linear3-topo.json...
 Done.
