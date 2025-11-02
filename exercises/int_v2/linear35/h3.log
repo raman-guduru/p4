@@ -1,0 +1,4 @@
+WARNING: Socket <scapy.arch.linux.L2ListenSocket object at 0x762d7dbbac30> failed with '[Errno 100] Network is down'. It was closed.
+Sniffing on eth0 for 10 INT reports (UDP port 24576)...
+
+Sniffing complete. No INT reports found.

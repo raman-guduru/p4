@@ -63,8 +63,10 @@ dirs:
 test: build
 	@echo "Starting Mininet and running test..."
 	( \
-		echo "!sleep 1s"; \
+		sleep 2; \
+		echo "$(EXTRA_ARG)"; \
 		echo "$(COLLECTOR_HOST) ./$(COLLECTOR_SCRIPT) $(COLLECTOR_ARGS) > ./$(COLLECTOR_HOST).log 2>&1 &"; \
+		$(NOISE_COMMANDS) \
 		echo "$(SENDER_HOST) ./$(SENDER_SCRIPT) $(SENDER_ARGS)"; \
 		echo "exit"; \
 	) | sudo PATH=$(PATH) ${P4_EXTRA_SUDO_OPTS} python3 $(RUN_SCRIPT) -t $(TOPO) $(run_args)
