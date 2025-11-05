@@ -66,6 +66,7 @@ test: build
 		sleep 2; \
 		echo "$(EXTRA_ARG)"; \
 		echo "$(COLLECTOR_HOST) ./$(COLLECTOR_SCRIPT) $(COLLECTOR_ARGS) > ./$(COLLECTOR_HOST).log 2>&1 &"; \
+		sleep 2; \
 		$(NOISE_COMMANDS) \
 		echo "$(SENDER_HOST) ./$(SENDER_SCRIPT) $(SENDER_ARGS)"; \
 		echo "exit"; \

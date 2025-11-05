@@ -1,0 +1,97 @@
+/home/p4/src/p4dev-python-venv/lib/python3.12/site-packages/pyftpdlib/authorizers.py:110: RuntimeWarning: write permissions assigned to anonymous user.
+  self._check_permissions(username, perm)
+Starting basic FTP server on 0.0.0.0:21...
+[I 2025-11-05 11:29:09] concurrency model: async
+[I 2025-11-05 11:29:09] masquerade (NAT) address: None
+[I 2025-11-05 11:29:09] passive ports: None
+[I 2025-11-05 11:29:09] >>> starting FTP server on 0.0.0.0:21, pid=147572 <<<
+[I 2025-11-05 11:29:09] 10.0.1.1:44592-[] FTP session opened (connect)
+[I 2025-11-05 11:29:09] 10.0.1.1:44592-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:09] 10.0.1.1:44592-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_1.txt completed=1 bytes=59 seconds=0.021
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_1.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 1/10)'
+------------------------------------
+[I 2025-11-05 11:29:09] 10.0.1.1:44592-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:09] 10.0.1.1:44594-[] FTP session opened (connect)
+[I 2025-11-05 11:29:09] 10.0.1.1:44594-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:10] 10.0.1.1:44594-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_2.txt completed=1 bytes=59 seconds=0.088
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_2.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 2/10)'
+------------------------------------
+[I 2025-11-05 11:29:10] 10.0.1.1:44594-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:11] 10.0.1.1:44596-[] FTP session opened (connect)
+[I 2025-11-05 11:29:11] 10.0.1.1:44596-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:11] 10.0.1.1:44596-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_3.txt completed=1 bytes=59 seconds=0.021
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_3.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 3/10)'
+------------------------------------
+[I 2025-11-05 11:29:11] 10.0.1.1:44596-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:12] 10.0.1.1:44608-[] FTP session opened (connect)
+[I 2025-11-05 11:29:12] 10.0.1.1:44608-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:12] 10.0.1.1:44608-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_4.txt completed=1 bytes=59 seconds=0.077
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_4.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 4/10)'
+------------------------------------
+[I 2025-11-05 11:29:12] 10.0.1.1:44608-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:13] 10.0.1.1:44612-[] FTP session opened (connect)
+[I 2025-11-05 11:29:13] 10.0.1.1:44612-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:13] 10.0.1.1:44612-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_5.txt completed=1 bytes=59 seconds=0.023
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_5.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 5/10)'
+------------------------------------
+[I 2025-11-05 11:29:13] 10.0.1.1:44612-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:13] 10.0.1.1:44628-[] FTP session opened (connect)
+[I 2025-11-05 11:29:13] 10.0.1.1:44628-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:13] 10.0.1.1:44628-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_6.txt completed=1 bytes=59 seconds=0.021
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_6.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 6/10)'
+------------------------------------
+[I 2025-11-05 11:29:13] 10.0.1.1:44628-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:13] 10.0.1.1:44640-[] FTP session opened (connect)
+[I 2025-11-05 11:29:14] 10.0.1.1:44640-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:14] 10.0.1.1:44640-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_7.txt completed=1 bytes=59 seconds=0.033
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_7.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 7/10)'
+------------------------------------
+[I 2025-11-05 11:29:14] 10.0.1.1:44640-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:14] 10.0.1.1:44656-[] FTP session opened (connect)
+[I 2025-11-05 11:29:14] 10.0.1.1:44656-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:14] 10.0.1.1:44656-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_8.txt completed=1 bytes=59 seconds=0.024
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_8.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 8/10)'
+------------------------------------
+[I 2025-11-05 11:29:14] 10.0.1.1:44656-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:14] 10.0.1.1:58890-[] FTP session opened (connect)
+[I 2025-11-05 11:29:14] 10.0.1.1:58890-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:14] 10.0.1.1:58890-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_9.txt completed=1 bytes=59 seconds=0.025
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_9.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 9/10)'
+------------------------------------
+[I 2025-11-05 11:29:15] 10.0.1.1:58890-[anonymous] FTP session closed (disconnect).
+[I 2025-11-05 11:29:15] 10.0.1.1:58902-[] FTP session opened (connect)
+[I 2025-11-05 11:29:15] 10.0.1.1:58902-[anonymous] USER 'anonymous' logged in.
+[I 2025-11-05 11:29:15] 10.0.1.1:58902-[anonymous] STOR /home/p4/p4/exercises/int_v2/ftp/p4_int_test_10.txt completed=1 bytes=60 seconds=0.025
+
+--- Received file from 10.0.1.1 ---
+File Name: p4_int_test_10.txt
+File Content: 'This is a test FTP packet for P4 INT from h1. (Packet 10/10)'
+------------------------------------
+[I 2025-11-05 11:29:15] 10.0.1.1:58902-[anonymous] FTP session closed (disconnect).

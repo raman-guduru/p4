@@ -1,0 +1,82 @@
+Starting basic SMTP server on 0.0.0.0:25...
+Server started. Press Ctrl+C to stop.
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (1/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 1/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (2/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 2/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (3/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 3/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (4/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 4/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (5/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 5/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (6/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 6/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (7/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 7/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (8/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 8/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (9/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 9/10)
+'
+------------------------------------
+
+--- Received email from 10.0.1.1 ---
+From: h1@p4.org
+To: h2@p4.org
+Subject: P4 INT Test Email (10/10)
+Message Body: 'This is a test SMTP packet for P4 INT from h1. (Packet 10/10)
+'
+------------------------------------

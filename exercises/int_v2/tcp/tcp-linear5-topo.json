@@ -1,0 +1,46 @@
+{
+  "hosts": {
+    "h1": {
+      "ip": "10.0.1.1/24",
+      "mac": "08:00:00:00:01:11",
+      "commands": [
+        "route add default gw 10.0.1.254 dev eth0",
+        "arp -i eth0 -s 10.0.1.254 08:00:00:00:01:01",
+        "ethtool --offload eth0 rx off tx off",
+        "ethtool --offload eth0 sg off"
+      ]
+    },
+    "h2": {
+      "ip": "10.0.5.5/24",
+      "mac": "08:00:00:00:05:05",
+      "commands": [
+        "route add default gw 10.0.5.254 dev eth0",
+        "arp -i eth0 -s 10.0.5.254 08:00:00:00:05:02",
+        "ethtool --offload eth0 rx off tx off",
+        "ethtool --offload eth0 sg off"
+      ]
+    },
+    "h_report": {
+      "ip": "10.0.6.6/24",
+      "mac": "08:00:00:00:06:06",
+      "commands": [
+        "route add default gw 10.0.6.254 dev eth0",
+        "arp -i eth0 -s 10.0.6.254 08:00:00:00:05:03",
+        "ethtool --offload eth0 rx off tx off",
+        "ethtool --offload eth0 sg off"
+      ]
+    }
+  },
+  "switches": {
+    "s1": {}, "s2": {}, "s3": {}, "s4": {}, "s5": {}
+  },
+  "links": [
+    ["h1", "s1-p1"],
+    ["s1-p2", "s2-p1"],
+    ["s2-p2", "s3-p1"],
+    ["s3-p2", "s4-p1"],
+    ["s4-p2", "s5-p1"],
+    ["h2", "s5-p2"],
+    ["h_report", "s5-p3"]
+  ]
+}

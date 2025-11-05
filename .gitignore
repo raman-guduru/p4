@@ -26,11 +26,4 @@ build*/
 # Logs folders
 logs/
 
-# Vagrant
-.vagrant/
-
-# Mac OS
-*.DS_Store
-
-# IntelliJ / PyCharm
-.idea/
+.aiexclude

@@ -1,0 +1,13 @@
+Will send 10 files via FTP to 10.0.5.5:21
+Uploading file 1/10 (p4_int_test_1.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 1/10)'
+Uploading file 2/10 (p4_int_test_2.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 2/10)'
+Uploading file 3/10 (p4_int_test_3.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 3/10)'
+Uploading file 4/10 (p4_int_test_4.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 4/10)'
+Uploading file 5/10 (p4_int_test_5.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 5/10)'
+Uploading file 6/10 (p4_int_test_6.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 6/10)'
+Uploading file 7/10 (p4_int_test_7.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 7/10)'
+Uploading file 8/10 (p4_int_test_8.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 8/10)'
+Uploading file 9/10 (p4_int_test_9.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 9/10)'
+Uploading file 10/10 (p4_int_test_10.txt) with content: 'This is a test FTP packet for P4 INT from h1. (Packet 10/10)'
+
+Successfully uploaded 10 files.

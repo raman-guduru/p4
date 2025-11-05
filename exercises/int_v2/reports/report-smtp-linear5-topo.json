@@ -1,0 +1,722 @@
+[
+    {
+        "seq_no": 17,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291340456,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3626840,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 3550,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4158397,
+                "egress_tstamp": 4161947,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 191
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1935,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4682260,
+                "egress_tstamp": 4684195,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 37
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1987,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5218956,
+                "egress_tstamp": 5220943,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 1181
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 2897,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5742283,
+                "egress_tstamp": 5745180,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 1826
+            }
+        ]
+    },
+    {
+        "seq_no": 18,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291291182,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3676114,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4160,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4209804,
+                "egress_tstamp": 4213964,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 841
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1468,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4734719,
+                "egress_tstamp": 4736187,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 470
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4457,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5269873,
+                "egress_tstamp": 5274330,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 220
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 2507,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5797756,
+                "egress_tstamp": 5800263,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 1302
+            }
+        ]
+    },
+    {
+        "seq_no": 19,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291247647,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3719649,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 768,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4257171,
+                "egress_tstamp": 4257939,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 152
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 2949,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4779154,
+                "egress_tstamp": 4782103,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 2349
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 2627,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5315583,
+                "egress_tstamp": 5318210,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 652
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 3097,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5842223,
+                "egress_tstamp": 5845320,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 2456
+            }
+        ]
+    },
+    {
+        "seq_no": 20,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291244179,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3723117,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1698,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4257745,
+                "egress_tstamp": 4259443,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 380
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 5347,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4779235,
+                "egress_tstamp": 4784582,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 2707
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 3017,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5315688,
+                "egress_tstamp": 5318705,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 631
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 2681,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5843327,
+                "egress_tstamp": 5846008,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 1973
+            }
+        ]
+    },
+    {
+        "seq_no": 21,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291179553,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3787743,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 3169,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4322123,
+                "egress_tstamp": 4325292,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 2443
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1851,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4845344,
+                "egress_tstamp": 4847195,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 26
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 834,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5383758,
+                "egress_tstamp": 5384592,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 475
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 5293,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5906754,
+                "egress_tstamp": 5912047,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 1915
+            }
+        ]
+    },
+    {
+        "seq_no": 22,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291145870,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3821426,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1247,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4358426,
+                "egress_tstamp": 4359673,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 320
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 557,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4884332,
+                "egress_tstamp": 4884889,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 27
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 447,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5423329,
+                "egress_tstamp": 5423776,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 44
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 2811,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5948810,
+                "egress_tstamp": 5951621,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 2253
+            }
+        ]
+    },
+    {
+        "seq_no": 23,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291121172,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3846124,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 964,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4382964,
+                "egress_tstamp": 4383928,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 369
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 613,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4909066,
+                "egress_tstamp": 4909679,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 22
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 758,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5448106,
+                "egress_tstamp": 5448864,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 405
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1929,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5976806,
+                "egress_tstamp": 5978735,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 1469
+            }
+        ]
+    },
+    {
+        "seq_no": 24,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291098877,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3868419,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 835,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4405997,
+                "egress_tstamp": 4406832,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 168
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1496,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4931270,
+                "egress_tstamp": 4932766,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 24
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 868,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5470128,
+                "egress_tstamp": 5470996,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 268
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1251,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5999526,
+                "egress_tstamp": 6000777,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 95
+            }
+        ]
+    },
+    {
+        "seq_no": 25,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291075761,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3891535,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 683,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4429062,
+                "egress_tstamp": 4429745,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 149
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 842,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4953447,
+                "egress_tstamp": 4954289,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 129
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1054,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5492116,
+                "egress_tstamp": 5493170,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 427
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 622,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 6020884,
+                "egress_tstamp": 6021506,
+                "ingress_port_id_l2": 49482,
+                "egress_port_id_l2": 52863,
+                "egress_port_tx_util": 161
+            }
+        ]
+    },
+    {
+        "seq_no": 26,
+        "source_ip": 167772417,
+        "dest_ip": 167773445,
+        "hops": [
+            {
+                "node_id": 5,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 4291067961,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 3899335,
+                "egress_tstamp": 0,
+                "ingress_port_id_l2": 0,
+                "egress_port_id_l2": 0,
+                "egress_port_tx_util": 0
+            },
+            {
+                "node_id": 4,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1266,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4435371,
+                "egress_tstamp": 4436637,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 598
+            },
+            {
+                "node_id": 3,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 555,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 4957099,
+                "egress_tstamp": 4957654,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 18
+            },
+            {
+                "node_id": 2,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1512,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 5492133,
+                "egress_tstamp": 5493645,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 588
+            },
+            {
+                "node_id": 1,
+                "ingress_port_id": 1,
+                "egress_port_id": 2,
+                "hop_latency": 1582,
+                "q_occupancy": 0,
+                "q_id": 0,
+                "ingress_tstamp": 6020902,
+                "egress_tstamp": 6022484,
+                "ingress_port_id_l2": 44594,
+                "egress_port_id_l2": 21,
+                "egress_port_tx_util": 396
+            }
+        ]
+    }
+]

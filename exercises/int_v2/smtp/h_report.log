@@ -1,0 +1,14 @@
+Sniffing on eth0 for 10 INT reports (UDP port 24576)...
+Captured INT report, sequence 2, 5 hops
+Captured INT report, sequence 3, 5 hops
+Captured INT report, sequence 4, 5 hops
+Captured INT report, sequence 5, 5 hops
+Captured INT report, sequence 6, 6 hops
+Captured INT report, sequence 7, 5 hops
+Captured INT report, sequence 8, 5 hops
+Captured INT report, sequence 9, 10 hops
+Captured INT report, sequence 10, 5 hops
+Captured INT report, sequence 11, 5 hops
+
+Sniffing complete. Saving 10 reports to ../reports/report-smtp-linear5-topo.json...
+Done.

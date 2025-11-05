@@ -1,0 +1,13 @@
+Will send 10 emails to 10.0.5.5:25
+Sending email 1/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 1/10)'
+Sending email 2/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 2/10)'
+Sending email 3/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 3/10)'
+Sending email 4/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 4/10)'
+Sending email 5/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 5/10)'
+Sending email 6/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 6/10)'
+Sending email 7/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 7/10)'
+Sending email 8/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 8/10)'
+Sending email 9/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 9/10)'
+Sending email 10/10 with body: 'This is a test SMTP packet for P4 INT from h1. (Packet 10/10)'
+
+Successfully sent 10 emails.
