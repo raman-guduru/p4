@@ -9,6 +9,9 @@ or
 follow this to install all dependencies: [instructions](https://github.com/jafingerhut/p4-guide/blob/master/bin/README-install-troubleshooting.md#quick-instructions-for-successful-install-script-run)
 
 
+> pip3 install aiosmtpd
+pip3 install pyftpdlib
+
 ## Run:
 
 Go to any topology
